@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind project-2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="bg-[#43CDD4] md:flex items-center justify-between">
+            <div class="md:ml-14 ml-4 flex items-center text-white text-xl font-bold">
+                <img class="h-16" src="images/logo-min.webp" alt="">
+                <span>Toys shop</span>
+            </div>
+            <a class="text-white md:text-xl invisible absolute md:static md:visible" href="#">
+                <span>SELECT CATEGORY</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <form class=" flex mx-3 md:mx-0 mt-2 md:mt-0" action="#">
+                <input class="md:px-14 px-4 py-1 outline-none rounded" type="search" placeholder="Search for Products"
+                    name="search">
+                <input class="bg-white text-cyan-600 -ml-3 px-2 md:px-6 py-1 rounded hover:text-red-700" type="submit"
+                    value="Search">
+            </form>
+            <a class="text-white text-base invisible md:visible" href="#">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>0.00$</span>
+            </a>
+            <div
+                class="bg-white text-cyan-600 mr-2 hover:text-red-700 px-2 rounded invisible md:visible absolute md:static">
+                <i class="fa-regular fa-user"></i>
+                <a href="#">LOGIN / REGISTER</a>
+            </div>
+        </nav>
+
+        <!-- pannel -->
+        <div class="bg-[#F2F2F2] shadow my-1 md:flex justify-between absolute md:sticky md:visible invisible">
+            <div class="bg-[#43CDD4] text-white text-base py-1 px-5 ml-8">
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>BROWSE CATEGORIES</span>
+                    <i class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div>
+                <ul class="flex gap-7 text-xs ">
+                    <li class="hover:text-red-700 my-1"><a href="#">HOME</a></li>
+                    <li class="hover:text-red-700 my-1"><a href="#">BEST SELLERS</a></li>
+                    <li class="hover:text-red-700 my-1"><a href="#">SHOP BY A</a></li>
+                    <li class="hover:text-red-700 my-1"><a href="#">NEW ARRIVALS</a></li>
+                </ul>
+            </div>
+            <div class="bg-[#43CDD4] text-white text-base rounded px-4 px-auto py-1 mr-5">
+                <button>Shop Now</button>
+            </div>
+        </div>
+
+        <!-- Banner section -->
+        <div class="my-5 mx-1">
+            <img src="images/desktop.webp" alt="">
+            <div class="bg-[#F2F2F2] shadow my-10 text-center py-10">
+                <h2 class="md:text-2xl text-xl text-red-600 items-center">Experience the Ultimate online toy shopping to
+                    you by toys.</h2>
+                <h6 class="text-xs md:text-base text-cyan-600">Official Distributor of Mattel, Winfun & Zephyr Toy
+                    Brands in Bangladesh!
+                </h6>
+            </div>
+        </div>
+    </header>
+
+    <!-- Shop Section -->
+    <div>
+        <h4 class="text-red-600 text-center font-bold text-xl md:text-2xl ">CATEGORIES: MATTEL</h4>
+        <div class="grid md:grid-cols-4  gap-16 mx-14 my-20">
+            <div class="text-left shadow-md">
+                <img src="images/shop1.webp" alt="">
+                <h6 class="text-red-600 font-bold md:text-xl">THE MAGIC TOY SHOP</h6>
+                <p class="md:font-bold text-base">$24.00-$34.00</p>
+            </div>
+            <div class="text-left shadow-md">
+                <img src="images/shop2.webp" alt="">
+                <h6 class="text-red-600 font-bold md:text-xl">THE MAGIC TOY SHOPk</h6>
+                <p class="md:font-bold text-base">$24.00-$34.00</p>
+            </div>
+            <div class="text-left shadow-md">
+                <img src="images/shop3.webp" alt="">
+                <h6 class="text-red-600 font-bold md:text-xl">THE MAGIC TOY SHOP</h6>
+                <p class="md:font-bold text-base">$24.00-$34.00</p>
+            </div>
+            <div class="text-left  shadow-md">
+                <img src="images/shop4.webp" alt="">
+                <h6 class="text-red-600 font-bold md:text-xl">THE MAGIC TOY SHOP</h6>
+                <p class="md:font-bold text-base">$24.00-$34.00</p>
+            </div>
+
+            <div class="text-left shadow-md">
+                <img src="images/image9.webp" alt="">
+                <h6 class="text-red-600 font-bold text-xll">THE MAGIC TOY SHOP</h6>
+                <p class="md:font-bold text-base">$24.00-$34.00</p>
+            </div>
+            <div class="text-left shadow-md">
+                <img src="images/shop5.webp" alt="">
+                <h6 class="text-red-600 font-bold tmd:text-xl">THE MAGIC TOY SHOP</h6>
+                <p class="md:font-bold text-base">$24.00-$34.00</p>
+            </div>
+            <div class="text-left shadow-md">
+                <img src="images/shop6.webp" alt="">
+                <h6 class="text-red-600 font-bold md:text-xl">THE MAGIC TOY SHOP</h6>
+                <p class="md:font-bold text-base">$24.00-$34.00</p>
+            </div>
+            <div class="text-left shadow-md">
+                <img src="images/image3.webp" alt="">
+                <h6 class="text-red-600 font-bold md:text-xl">THE MAGIC TOY SHOP</h6>
+                <p class="md:font-bold text-base ">$24.00-$34.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Section -->
+    <div class="text-center">
+        <h1 class="text-red-600 font-bold text-xl md:text-3xl">OUR ALL PRODUCT</h1>
+        <h6 class="text-xs md:text-base text-red-600 shadow">THE MAGIC TOY SHOP</h6>
+        <div class="grid md:grid-cols-5 gap-24 mt-10 md:m-20  m-16">
+            <div class="text-center shadow-md">
+                <img src="images/FYJ44C.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/HCB57.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/FYJ44C.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/HCB57.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/FYJ44C.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/shop6.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/shop2.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/shop3.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/shop4.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+            <div class="text-center shadow-md">
+                <img src="images/shop5.webp" alt="">
+                <h6 class="text-red-600 font-bold text-base">THE MAGIC TOY</h6>
+                <p class="text-xs md:font-bold">$24.00-$34.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo section -->
+    <div class=" mx-5 text-center">
+        <h1 class="text-red-600 font-bold text-xl md:text-2xl">OUR BRANDS</h1>
+        <h6 class="text-base text-red-600 shadow">TOY SHOP</h6>
+        <div class="md:grid md:grid-cols-3 gap-8 mt-10">
+            <img class="my-8 md:my-0" src="images/image2.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image3.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image4.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image5.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image6.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image7.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image8.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image9.webp" alt="">
+            <img class="my-8 md:my-0" src="images/image1.webp" alt="">
+        </div>
+    </div>
+
+    <div class="mt-20">
+        <div class="">
+            <a href="top"></a>
+        </div>
+        <h4 class="text-red-600 text-center font-bold text-xl md:text-3xl shadow">ONLINE PARTNERS</h4> 
+        <div class="grid md:grid-cols-3 text-center justify-center md:ml-52">
+            <span><img src="images/daraz.webp" alt=""></span>
+            <span><img src="images/rokomari.webp" alt=""></span>
+           <span> <img src="images/panda-mart.webp" alt=""></span>
+        </div>
+    </div>
+    
+<!-- ------- Footer Section ------- -->
+    <footer>
+        <div class="font-bold py-3 text-white text-xs md:text-base bg-[#f1efef] text-center shadow">
+            <span class="bg-[#3cc5cc] py-1 px-2 rounded hover:text-red-700"><a href="#">BACK TO TOP </a></span>
+        </div>
+        <div class=" mt-1 md:grid  md:grid-cols-3 bg-[#3cc5cc] py-10 px-20 text-white">
+            <ul class="ml-10">
+                <p class="font-bold md:text-xl mb-2">OUR PAGES</p>
+                <li><a class="hover:text-red-700" href="#">Home Page</a></li>
+                <li><a class="hover:text-red-700" href="#">Shop Now</a></li>
+                <li><a class="hover:text-red-700" href="#">Order Tracking</a></li>
+                <li><a class="hover:text-red-700" href="#">Privacy Policy</a></li>
+                <li><a class="hover:text-red-700" href="#">Client Panel</a></li>
+            </ul>
+            <ul class="mt-8 md:mt-0 ml-10">
+                <p class="font-bold md:text-xl mb-2">MY ACCOUNT</p>
+                <li><a class="hover:text-red-700" href="#">Dashboard</a></li>
+                <li><a class="hover:text-red-700" href="#">Orders</a></li>
+                <li><a class="hover:text-red-700" href="#">Downloads</a></li>
+                <li><a class="hover:text-red-700" href="#">Addresses</a></li>
+                <li><a class="hover:text-red-700" href="#">Logout</a></li>
+            </ul>
+            <ul class="mt-8 md:mt-0">
+                <img class="h-24" src="images/logo-min.webp" alt="">
+                <p class="font-bold md:text-xl">Order your favourite toys</p>
+                <li" > House#05 Baridhara, Block J, Dhaka - 1212.</li>
+            </ul>
+        </div>
+        <div class="bg-cyan-600 text-white text-xs p-2 text-center"><span>Toys © 2024 All Right Reserved. Develop by Stripling IT.</span></div>
+    </footer>
+</body>
+
+</html>
